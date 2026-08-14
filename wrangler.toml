@@ -1,0 +1,5 @@
+# Cloudflare Pages deployment configuration
+name = "complaintcheck"
+compatibility_date = "2024-08-01"
+
+[env.production]

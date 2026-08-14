@@ -1,0 +1,20 @@
+# ComplaintCheck
+
+ComplaintCheck lets you search and monitor financial companies using live CFPB complaint data.
+
+**Core value:** See a company’s complaint history before you sign up.
+
+## Site Structure
+- / — Home with search input, result summary (12-month count, all-time, top 3 issues, trend), link to official CFPB listing.
+- /dashboard — Watchlist, per-company trend chart, issue breakdown, last checked date, alert feed. Requires Supabase Auth.
+- /pricing — Free vs Pro tiers: $9.99/mo or $89/yr for unlimited watchlist, spike alerts, CSV export, side-by-side comparison.
+- /about — What this is, data source (CFPB Consumer Complaint Database), disclaimer.
+
+## Key Links
+- Search example: https://complaintcheck.app/
+- Pricing: https://complaintcheck.app/pricing
+- About: https://complaintcheck.app/about
+- Contact: mailto:contact@calyvent.com?subject=ComplaintCheck%20Inquiry
+
+## Data Source
+Live data pulled directly from the CFPB's official Consumer Complaint Database via public API. No manual entry.
