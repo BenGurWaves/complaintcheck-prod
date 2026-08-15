@@ -1,17 +1,13 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme inline {
+:root {
   --color-background: #FAF9F6;
   --color-foreground: #1A1A1D;
   --color-accent: #C0FF00;
   --color-muted: #8B8B8B;
   --color-border: #E5E2DB;
-  --font-sans: var(--font-inter);
-  --font-display: var(--font-crimson);
-}
-
-* {
-  font-variant-ligatures: common-ligatures;
 }
 
 html {
@@ -24,8 +20,3 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-
-::selection {
-  background: var(--color-accent);
-}
-
